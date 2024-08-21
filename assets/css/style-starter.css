@@ -19217,7 +19217,11 @@ h3.title-style {
   line-height: 50px;
   font-weight: bold;
 }
-
+.title-style1{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+}
 h3.title-style span {
   font-weight: 300;
 }
@@ -20296,6 +20300,17 @@ p.count-text {
 }
 .inner-banner1 {
   background: url(../images/stat-x6.jpg) no-repeat top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  /* position: relative; */
+  z-index: 0;
+  padding-bottom: 8em !important;
+}
+.contactus {
+  background: url(../images/contact-us-banner.png) no-repeat top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
